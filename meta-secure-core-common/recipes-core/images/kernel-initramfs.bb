@@ -13,8 +13,6 @@ ALLOW_EMPTY:${PN} = "1"
 
 B = "${WORKDIR}/${BPN}-${PV}"
 
-inherit linux-kernel-base kernel-arch
-
 INITRAMFS_NAME = "${KERNEL_IMAGETYPE}-initramfs-${PV}-${PR}-${MACHINE}-${DATETIME}"
 INITRAMFS_NAME[vardepsexclude] = "DATETIME"
 INITRAMFS_EXT_NAME = "-${@oe.utils.read_file('${STAGING_KERNEL_BUILDDIR}/kernel-abiversion')}"
