@@ -16,6 +16,7 @@ SRC_URI = " \
     file://0004-src-Makefile.am-Add-read_write_all.c-to-common_SOURC.patch \
     file://0005-fileio.c-initialize-local-variables-before-use-in-fu.patch \
     file://0006-Makefile.am-do-not-use-Werror.patch \
+    file://0001-Add-support-for-openssl-3-providers-and-building-wit.patch \
 "
 
 SRCREV = "9cfca9fe7aa7a8e29b92fe33ce8433e212c9a8ba"
